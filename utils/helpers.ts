@@ -3,4 +3,4 @@ export const isProd = process.env.NODE_ENV === "production";
 
 export const ORIGIN_URL = isDev
   ? "http://localhost:3000"
-  : "";
+  : "https://your-domain.vercel.app";
